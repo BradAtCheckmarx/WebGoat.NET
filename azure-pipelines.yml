@@ -1,14 +1,4 @@
 # ASP.NET
-- task: Security static source code analysis@88
-  inputs:
-    CheckmarxService: 'Checkmarx -Local VM'
-    projectName: 'WebGoat.Net'
-    preset: 'Checkmarx Default'
-    fullTeamName: 'CxServer'
-    incScan: true
-    scanTimeout: '15'
-    comment: 'Running from Azure DevOps'
-    osaEnabled: true
 # Build and test ASP.NET projects.
 # Add steps that publish symbols, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
