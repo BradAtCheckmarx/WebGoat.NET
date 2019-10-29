@@ -35,7 +35,7 @@ steps:
 
 - task: Security static source code analysis@88
   inputs:
-    CheckmarxService: 'Checkmarx -Local VM'
+    CheckmarxService: 'Checkmarx -CxPrivateCloud'
     projectName: 'WebGoat.Net'
     preset: 'Checkmarx Default'
     fullTeamName: 'CxServer'
