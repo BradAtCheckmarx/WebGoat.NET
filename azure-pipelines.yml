@@ -4,7 +4,7 @@
     CheckmarxService: 'Checkmarx -Local VM'
     projectName: 'WebGoat.Net'
     preset: 'Checkmarx Default'
-    fullTeamName: 'CxServer/'
+    fullTeamName: 'CxServer'
     incScan: true
     scanTimeout: '15'
     comment: 'Running from Azure DevOps'
