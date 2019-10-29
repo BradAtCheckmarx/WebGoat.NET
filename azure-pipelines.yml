@@ -32,3 +32,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: Security static source code analysis@88
+  inputs:
+    CheckmarxService: 'Checkmarx -Local VM'
+    projectName: 'WebGoat.Net'
+    preset: 'Checkmarx Default'
+    fullTeamName: 'CxServer'
+    incScan: true
