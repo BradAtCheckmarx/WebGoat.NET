@@ -35,8 +35,8 @@ steps:
 
 - task: Security static source code analysis@88
   inputs:
-    CheckmarxService: 'Checkmarx -CxPrivateCloud'
-    projectName: 'WebGoat.Net'
+    CheckmarxService: 'Checkmarx - CxPrivateCloud'
+    projectName: 'WebGoat.Net_Wolfe'
     preset: 'Checkmarx Default'
-    fullTeamName: 'CxServer'
+    fullTeamName: 'CxServer\SP\EMEA\wolfetest'
     incScan: true
