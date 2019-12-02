@@ -32,11 +32,3 @@ steps:
 #  inputs:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
-
-- task: Security static source code analysis@88
-  inputs:
-    CheckmarxService: 'Checkmarx - CxPrivateCloud'
-    projectName: 'WebGoat.Net_Wolfe'
-    preset: 'Checkmarx Default'
-    fullTeamName: 'CxServer\SP\EMEA\wolfetest'
-    incScan: true
