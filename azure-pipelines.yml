@@ -36,13 +36,8 @@ steps:
 
 - task: Security static source code analysis@88
   inputs:
-    CheckmarxService: 'CxPrivateCloud'
+    CheckmarxService: 'Personal Checkmarx VM'
     projectName: 'WebGoat.Net'
     preset: 'Checkmarx Default'
-    fullTeamName: 'CxServer\SP\EMEA\wolfetest'
-    incScan: false
-    scanTimeout: '15'
-    comment: 'This is a scan running from Azure DevOps'
-    high: '25'
-    medium: '40'
-    low: '100'
+    fullTeamName: 'CxServer'
+    incScan: true
